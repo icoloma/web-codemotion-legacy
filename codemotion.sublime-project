@@ -1,0 +1,20 @@
+{
+  "build_systems": [{
+    "cmd": [ "node_modules/less/bin/lessc", "less/styles.less", "public/css/styles.css"],
+    "name": "lessc",
+    "working_dir": "${project_path}"
+  }],
+	"folders":
+	[
+		{
+			"path": ".",
+      "folder_exclude_patterns": ["node_modules"]
+		}
+	],
+  
+  "settings": {
+    "tab_size": 2,
+    "translate_tabs_to_spaces": true,
+    "word_wrap": "true"
+  }
+}

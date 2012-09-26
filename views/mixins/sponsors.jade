@@ -1,0 +1,7 @@
+mixin sponsors(title, sponsors)
+  h3=title
+  ul
+    each sponsor in sponsors
+      li.sponsor.span4
+        a(href=sponsor.url, title= sponsor.name)
+          img(src="/img/partners/" + sponsor.img)

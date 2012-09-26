@@ -1,0 +1,22 @@
+ {
+
+  "menu": {
+      "info": "What?",
+      "venue": "Where?",
+      "schedule": "Schedule",
+      "blog": "Blog",
+      "cv": "CV",
+      "contribute": "Contribute",
+      "sponsors": "Sponsors",
+      "partners": "Partners",
+      "followUp": "Follow up"
+
+  },
+
+  "home": {
+    "title": "Let's rock'n roll"
+    ,"bodyheader": "<p>Codemotion es el evento que reunirá en España a técnicos, desarrolladores y estudiantes de todas las comunidades y lenguajes. Por primera vez se celebrará en España después de 5 años de éxito en Italia.<p>Codemotion es el evento que reunirá en España a técnicos, desarrolladores y estudiantes de todas las comunidades y lenguajes. Por primera vez se celebrará en España después de 5 años de éxito en Italia."
+    ,"body": "<h3>Por y para comunidades de desarrollo</h3><p>Codemotion es un evento organizado por las comunidades, para las comunidades. Cada grupo es responsable de organizar su propio Call For Papers, y llegado el momento se confeccionará el calendario final con las charlas seleccionadas por cada comunidad.<h3>Somos muchos</h3><p>Y nos vemos poco. Este evento es una oportunidad única para mezclar en un mismo recinto comunidades como Java, Rails, JavaScript o Agile. Si estás esperando para conocer alguna tecnología que te saque de tu zona de confort, éste puede ser tu día y nosotros podemos ser tu excusa.<h3>Internacional</h3><p>No sólo en charlas, donde traeremos speakers internacionales, sino el propio evento que se ejecutará en paralelo con Codemotion Italia celebrado en Roma el mismo día."
+  }
+
+}

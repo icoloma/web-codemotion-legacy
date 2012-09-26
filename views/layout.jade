@@ -1,0 +1,37 @@
+extends bare-layout
+include  ./mixins/sponsors
+
+append main_content
+  
+  .container
+
+    .row
+      .span8
+        block content 
+
+      .span4#sidebar
+       
+        .span4
+          ul.social.fright
+            li.social-item
+              a.social-a.tweet(href="http://twitter.com/codemotion_es", title="síguenos en twitter", target="_blank")
+            li.social-item
+              a.social-a.in(href="http://linkd.in/tE52YK", title="síguenos en linkedin", target="_blank")
+            li.social-item
+              a.social-a.gplus(href="https://plus.google.com/104221251947950058832", title="síguenos en google plus", target="_blank")
+            li.social-item
+              a.social-a.contact(href="mailto:info@codemotion.es", title="contacto")
+
+        .span4
+          mixin sponsors('Platinum Sponsors', locals.sponsorList.platinum)
+          mixin sponsors('Gold Sponsors', locals.sponsorList.gold)
+          mixin sponsors('Silver Sponsors', locals.sponsorList.silver)
+          mixin sponsors('Media Partners', locals.sponsorList.media)
+
+
+append scripts
+  script
+    define( 'home', ['jquery' ], 
+        function(jQuery) {
+        });
+    

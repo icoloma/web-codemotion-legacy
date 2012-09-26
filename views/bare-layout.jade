@@ -1,0 +1,102 @@
+doctype 5
+html( lang="en")
+  head
+    meta(charset="utf-8")
+    title= title
+    link(rel='stylesheet', href='/css/styles.css')
+    //if lt IE 10
+      script
+        window.location.href=/(http(s?):\/\/[^\/]+).*/.exec(window.location.href)[1] + '/browser-not-supported.html'
+  body
+
+    .navbar.navbar-inverse
+      .navbar-inner
+        .container 
+
+          //- btn-navbar is used as the toggle for collapsed navbar content 
+          a.btn.btn-navbar(data-toggle="collapse", data-target=".nav-collapse")
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          
+          a.brand(href="/" ) Codemotion
+          .nav-collapse
+            ul.nav 
+              li
+                a(href="/info") #{lingua.menu.info}  
+              li
+                a(href="/venue") #{lingua.menu.venue}
+              li
+                a(href="/schedule") #{lingua.menu.schedule}
+              li 
+                 a(href="http://blog.codemotion.es", target="_blank") #{lingua.menu.blog}
+              li 
+                a(href="/cv") #{lingua.menu.cv}
+              li 
+                a(href="/contribute") #{lingua.menu.contribute}
+              li 
+                a(href="/sponsors") #{lingua.menu.sponsors}
+              li 
+                a(href="/partners") #{lingua.menu.partners}
+              li 
+                a(href="/follow-up") #{lingua.menu.followUp}
+    div#branding
+      .container
+        .row
+          div
+            h2.where-title
+              span(itemprop="addressLocality") MADRID
+              span(itemprop="startDate", content="2013-03-2013T09:00")
+                span.red 09
+                span.white .03.2013
+            div(itemprop="address", itemscope="itemscope", itemtype="http://schema.org/PostalAddress")
+              p.retro(itemprop="name") Escuela Universitaria de Informática
+              p.retro Universidad Politécnica de Madrid
+              p.retro(itemprop="streetAddress") Carretera de Valencia km 7 (Campus Sur)
+
+
+
+    .toolbar
+      .container
+        .locales
+          a.locale(href="?language=es") ESPAÑOL
+          a.locale(href="?language=en") ENGLISH
+
+    block main_content
+
+    .prefooter
+      .container
+        .row
+          .span16
+            ul.communities
+              each community in locals.communitiesList
+                li.community
+                  a(title=community.name , href=community.url, target="_blank")
+                    img.community-logo(src="/img/communities/" + community.img)
+              
+
+
+
+
+    footer
+      .container
+        .row
+          .span16
+            a.footer-logo.extremalogo(href="http://extrema-sistemas.com")
+              span.ui-helper-hidden-accessible Extrema Sistemas
+            a.footer-logo.n3logo(href="http://www.nois3lab.it/")
+              span.ui-helper-hidden-accessible nois3lab
+            a.footer-logo.womalogo(href="http://www.womadesignoffice.it/")
+              span.ui-helper-hidden-accessible WomaDesignOffice
+            a.footer-logo.whitelogo.fright(href="http://codemotion.es")
+              span.ui-helper-hidden-accessible  Codemotion
+
+    script(src='/js/app.js')
+    script(src='/js/lib/require.js')
+    script
+      define( 'home', ['jquery' ], 
+          function(jQuery) {
+          });
+      
+    
+    block scripts
