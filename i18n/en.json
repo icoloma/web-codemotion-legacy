@@ -1,5 +1,4 @@
- {
-
+{
   "menu": {
       "info": "What?",
       "venue": "Where?",
@@ -10,13 +9,262 @@
       "sponsors": "Sponsors",
       "partners": "Partners",
       "followUp": "Follow up"
+  }
 
-  },
-
-  "home": {
+  ,"home": {
     "title": "Let's rock'n roll"
     ,"bodyheader": "<p>Codemotion es el evento que reunirá en España a técnicos, desarrolladores y estudiantes de todas las comunidades y lenguajes. Por primera vez se celebrará en España después de 5 años de éxito en Italia.<p>Codemotion es el evento que reunirá en España a técnicos, desarrolladores y estudiantes de todas las comunidades y lenguajes. Por primera vez se celebrará en España después de 5 años de éxito en Italia."
     ,"body": "<h3>Por y para comunidades de desarrollo</h3><p>Codemotion es un evento organizado por las comunidades, para las comunidades. Cada grupo es responsable de organizar su propio Call For Papers, y llegado el momento se confeccionará el calendario final con las charlas seleccionadas por cada comunidad.<h3>Somos muchos</h3><p>Y nos vemos poco. Este evento es una oportunidad única para mezclar en un mismo recinto comunidades como Java, Rails, JavaScript o Agile. Si estás esperando para conocer alguna tecnología que te saque de tu zona de confort, éste puede ser tu día y nosotros podemos ser tu excusa.<h3>Internacional</h3><p>No sólo en charlas, donde traeremos speakers internacionales, sino el propio evento que se ejecutará en paralelo con Codemotion Italia celebrado en Roma el mismo día."
   }
 
+  ,"info": {
+    "title" : "Sobre el codemotion<small> El qué y el porqué</small>",
+    "bodyheader" : "Programar es un arte y se necesita experiencia para crear código de calidad. Se equivoca quien piensa que desarrollar software es una actividad mecánica, siempre igual, sin estímulos o creatividad",
+    "body" : "Después de cinco años de éxito celebrandose en Roma, este año el Codemotion también se celebrará en Madrid. La idea es sencilla: celebrar un evento centrado en el desarrollo y los desarrolladores, sin importar la tecnología, el lenguaje o la metodología; todos tienen cabida.<p>A través de todas las comunidades que participan en la organización, el evento servirá de punto de encuentro para los desarrolladores, pero también para las comunidades. Es la excusa perfecta para conocer las últimas tendencias en el desarrollo de aplicaciones, así como conocer qué aportan y cómo se trabaja con tecnologías o lenguajes con los que uno pueda tener menos contacto.<p>Si tienes una pregunta, una idea, una sugerencia sobre lo que te gustaría ver en el Codemotion, puedes ponerte en contacto con nosotros a través de info@codemotion.es",
+    "international" : "<h3>¡Más allá de fronteras</h3><p>No sólo por las charlas, donde participarán ponentes relevantes en ámbito internacional, sino porque el propio evento será en paralelo con Codemotion Italia, celebrado en Roma el mismo día. <a href='http://codemotion.it/'>¡Visita la página de Codemotion Roma!</a>",
+    "waiting" : "<h3>Del 4 al 8 de Marzo: Esperando al Codemotion</h3><p>¡No sólo un día! Durante toda la semana anterior las Comunidades organizarán eventos locales, talleres, charlas y foros como adelanto del codemotion. ¡La ocasión ideal para profundizar argumentos e ir calentando el evento!",
+
+    "c4p": "<h3>¿Has enviado tu propuesta?</h3><p>Habrá charlas de todas la comunidades así que si tienes algo que aportar en los niveles de iniciación y avanzado no dejes de enviar tu propuesta. <strong>¡El call for papers estará abierto hasta el 15 de enero!</strong>"
+  }
+
+  ,"cv": {
+      "title" :"No olvides tu Curriculum<small>APROVECHA TU OPORTUNIDAD, LLEVA TU CV</small>",
+      "bodyheader" : "Las empresas patrocinadoras del Codemotion quieren conocer a los mejores profesionales de todos los perfiles: desarrolladores, managers, responsables técnicos, analistas y estudiantes. Para ello tendrán un buzón de recogida de curricula.",
+      "body" : "El Codemotion será una buena oportunidad para entrar en contacto con empresas patrocinadoras que estén buscando profesionales como tú. Aquí tienes algunos consejos para hacer que tu curriculum destaque.",
+      "update" : "<h3>Actualiza tu CV. ¡Forma y fondo!</h3><p>Escribe un CV que te represente de forma global y que no sea una mera lista de las experiencias o proyectos en los que has participado. Un buen CV también debe mostrar adecuadamente lo que sabes hacer y tus habilidades para hacerlo.<p>Si tienes dudas de cómo hacerlo te aconsejamos la lectura de estas páginas:<ul><li><a href='http://www.modelocurriculum.net/'>El currículm vitae</a><li><a href='http://www.cv-resume.org/curriculumvitae/elaborarcurriculumvitae/consejos.php'>Consejos para redactar un Currículum Vitae</a></ul>",
+      "copies" : "<h3>Lleva varias copias</h3>Lleva al menos tantas copias impresas de tu CV, como patrocinadores haya presentes en el Codemotion. Iremos añadiendo los patrocinadores a la web a medida que los vayamos confirmando.",
+      "deliver" : "<h3>Elige el momento de entregarlo</h3><p>Busca el momento en el que los representantes de los patrocinadores estén más disponibles para dedicarte un poco más de tiempo. Un buen momento será en las pausas para el café o en el descanso entre charlas.",
+      "remember" :"<h3>Haz que te recuerden</h3><p>No te limites simplemente a \"dejar caer\" el currículum en el buzón que tendrán en su stand. Preséntate e interésate tambíen por la actividad de la compañía y el tipo de perfiles que buscan."
+  }
+
+  ,"contribute": {
+      "title" : "¡Échanos una mano!<small>Necesitamos colaboradores</small>",
+      "bodyheader" : "Necesitamos ayuda de gente como tú para hacer aún más grande el Codemotion. La cosas en las que puedes ayudar son muchas, tanto durante como antes del evento. Si quieres ayudarnos, escribe a <a href='mailto:'info@codemotion.es'>info@codemotion.es</a>",
+      "volunteers" : "<h3>Voluntarios en el evento</h3><p>El día del Codemotion, el sabado 9 de marzo de 2013, necesitaremos gente para ayudarnos con el proceso de inscripción, la entrega de materiales a los asistentes, el control del tiempo y del inicio y final de las charlas... En función del número de voluntarios, trataremos de organizarnos para que también los voluntarios puedan seguir alguna de las charlas.<p>Si estás interesado en convertirte en un voluntario del evento, escríbenos a <a href='mailto:'info@codemotion.es'>info@codemotion.es</a> indicando tu disponibilidad y preferencias.",
+      "volunteers2" : "<h3>Voluntario para los preparativos</h3><p>Antes de que el Codemotion abra sus puertas, tenemos un montón de trabajo que hacer: preparar las bolsas para entregar a los asistentes, preparar los stands de expositores, colocar los carteles y la señalización del recinto...<p>Si puedes ayudarnos en los días anteriores al 24 de Marzo, escríbenos a <a href='mailto:'info@codemotion.es'>info@codemotion.es</a> indicando tu disponibilidad y preferencias.",
+      "blog": "<h3>Habla del Codemotion en tu blog o web</h3><p>Aquí tienes nuestra nota de prensa. Si la publicas avísanos porque los 10 sitios que más tráfico nos redirijan se convertirán en nuestros Web Partner.",
+      "web": "<h3>Publica un banner en tu sitio</h3><p>Si quieres publicar un banner en tu web o blog elige el que más se adapte a tu página y haz que apunte a <a href='http://codemotion.es'>http://codemotion.es</a>. No te olvides avisarnos.",
+      "sign" : "<h3>Cuelga el cartel en el tablón de anuncios de tu facultad</h3><p>Si quieres que todos los alumnos de tu facultad conozcan el evento de una manera más tradicional puedes colgar el cartel del Codemotion en el tablón de anuncios. Haz clic sobre la imagen para descargarlo en formato .pdf y poder imprimirlo. ¡Cuantos más seamos mejor lo pasaremos!",
+      "student" : "<h3>Si eres estudiante o profesor...</h3><p>Para nosotros es muy interesante la participación de los estudiantes de todas las universidades en el Codemotion. Si eres estudiante o profesor, hazte eco del evento. Si quieres que te enviemos una imagen o una noticia que poder publicar o colgar en los tablones de tu universidad, ponte en contacto con nosotros a través de <a href='mailto:'info@codemotion.es'>info@codemotion.es</a> y te diremos cómo podemos ayudarte con el anuncio en tu centro.",
+      "friends" : "<h3>Invita a tus amigos y colegas</h3><p>¿Hay un compañero o amigo que todavía no ha oido hablar del Codemotion? Cuentale la que estamos preparando y animale a que visite la web y se inscriba como asistente.",
+      "twitter" : "<h3>Twitter supporter</h3><p>Si también tu eres un apasionado del canto de los pájaros azules, puedes ayudarnos a difundir acerca del codemotion utilizando los hashtags #codemotion #es. Puedes seguirnos también en nuestra cuenta <a href='http://twitter.com/codemotion_es'>@codemotion_es</a>",
+      "linkedin" : "<h3>Linkedin supporter</h3>Sigue la página de codemotion en <a href='http://www.linkedin.com/'>Linkedin</a>."
+  }
+
+  ,"sponsors": {
+      "title" : "Our sponsors<small> Sin ellos no podríamos hacer CodeMotion</small>",
+      "bodyheader" : "Organizar un evento como el Codemotion requiere mucho esfuerzo y también soporte económico y técnico. Nosotros ponemos la idea y el trabajo, pero los patrocinadores nos permiten que podamos llevarlo a cabo.<p>Cuando estés disfrutando del Codemotion, recuerda que es gracias a los patrocinadores que lo hemos podido realizar. Merecen todo nuestro agradecimiento y atención.",
+      "body" : "¿Quieres patrocinar? ¿Quieres más información? Escríbenos a info@codemotion.es o consulta las condiciones de patrocinio<p>¡Te presentamos a todos nuestros patrocinadores! ¡Iremos anunciando los próximos dias la lista completa!"
+  }
+
+  ,"partners":{
+    "title" : "La suma de muchos<small>Quíen es quién en la organización</small>",
+    "bodyheader" : "El codemotion no es algo de unos pocos, hay muchas organizaciones, empresas y comunidades dando su apoyo. Conoce quién es quién",
+    
+    "sponsors" : "<h3>Patrocinadores</h3>Un evento como el codemotion no se puede hacer sin el soporte de algunas empresas que nos ayuden a financiar todos los gastos que supone todo lo que queremos ofrecer a los asistentes.<p>A los patrocinadores les tenemos que agradecer que podamos hacer el evento que nosotros queramos, por eso cuando esteis en el codemotion y disfruteis de las charlas, de los ponentes y de todas las actividades, recordad que no podríamos hacerlo sin su ayuda.<p>Puedes ver el detalle de todos los patrocinadores en la página de <a href='/sponsors'>patrocinadores</a>",
+    
+    "communities" :"<h3>Comunidades</h3>Las comunidades es lo que hace de verdad el Codemotion un evento abierto a todos los lenguajes y tecnologías. También hay varias comunidades o asociaciones que colaboran en que el evento sea más interesante.<p>Cada comunidad se responsabiliza de una o más áreas sobre las que evaluará las propuestas de charlas recibidas a través del <a href='/c4p'>Call for papers</a>",
+
+    "contributors" :"<h3>Contributors</h3>Los colaboradores también aportan su grano de arena para que todos disfrutemos del evento de la forma más cómoda posible.",
+
+    "mediaPartners" : "<h3>Media Partners</h3>Estas son las empresas, organizaciones o personas que más han ayudado a difundir el evento. Su selección ha sido en base a la medición de la cantidad de tráfico dirigido a la web o del impacto en medios de prensa que han conseguido para el Codemotion."
+  }
+
+  ,"venue": {
+    "title": "Where will be?"
+    
+    ,"bodyheader": "<p>Llegar a la Escuela Universitaria de Informática, de la Universidad Politécnica de Madrid, es fácil tanto con trasporte privado o en trasporte público."
+    
+    ,"map": "<p>La Escuela Universitaria de Informática de la Universidad Politécnica de Madrid se encuentra en el Campus Sur, en la Carretera de Valencia Km 7. Hay un acceso alternativo desde la Calle Arboleda 1, Madrid.<h4>COORDENADAS GPS: (40.390309, -3.628256)</h4>"
+    
+    ,"seeMap" :"View larger map" 
+
+    ,"byCar" : {
+        "title": "By car",
+        "sidenote": "¿Sabes que puedes compartir el viaje en coche? Si necesitas que alguien te lleve o si piensas viajar en tu coche y tienes plazas libres, pon un anuncio en <a href='http://amovens.com' target='_blank'>amovens.com</a>, <a href='http://compartocoche.com' target='_blank'>compartocoche.com</a>, <a href='http://www.blablacar.es' target='_blank'>www.blablacar.es</a><p>¡Es una de las maneras más baratas de viajar y ayudas a cuidar del medio ambiente haciendo amigos por el camino!",
+        "text":"La Escuela Universitaria está situada al sureste de Madrid.<p>Una de las formas de llegar es coger la M-40 y salir por la salida hacia Avda. del Mediterráneo y seguir las indicaciones hacia la Escuela Universitaria.<p>Si vienes de la M-30 tendrás que tomar la salida hacia Conde de Casal, y desde ahí tomar la N-III (Avda. del Mediterráneo). En el km 7 encontrarás el desvío hacia la Escuela Universitaria."
+    }
+    ,"byBus" : {
+        "title": "By bus",
+        "text":"Hay oracle autobuses en los que puede llegar a la Universidad, entre ellos:<ul><li><strong>Autobús E:</strong> Desde Conde de Casal con paradas en el Campus</ul><p>Con parada en la vía de servicio de la Ctra. de Valencia a la altura del Campus:<ul><li><strong>Autobús 63:</strong> Desde Felipe II a Santa Eugenia<li><strong>Autobús 145:</strong> Desde Conde de Casal a Santa Eugenia</ul><p>Con parada en la parte trasera del Campus, cerca de la gasolinera existente en la Carretera de Vallecas (Avda. de la Albufera):<ul><li><strong>Autobús 54:</strong> Desde la Glorieta de Carlos V<li><strong>Autobús 58:</strong> Desde el Puente de Vallecas<li><strong>Autobús 103:</strong> Desde Entrevías<li><strong>Autobús 130:</strong> Desde Villaverde / Vicálvaro<li><strong>Autobús 142:</strong> Desde Pavones<li><strong>Autobús 143:</strong> Desde Manuel Becerra</ul>"
+    }
+    ,"bySubway" : {
+        "title" : "By subway",
+        "text" : "Parada de Sierra de Guadalupe, en la línea de metro L-1.<p>Desde allí deberás tomar la Calle Arboleda hasta el otro extremo, donde queda situado el Campus Sur y la Escuela Universitaria de Informática"
+    }
+
+    ,"byPlane" :{
+        "title" : "By plane",
+        "text" : "Desde el Aeropuerto Internacional de Barajas de Madrid puede coger la carretera Nacional II, salir por el desvío de la M-40 y finalmente salir hacia la Avenida del Mediterráneo (donde ya podrás encontrar carteles rosados con la indicación de la situación de la Escuela Universitaria).<p>Desde el aeropuerto de Barajas de Madrid puedes coger el metro. Un posible trayecto sería:<ul><li>Coje la línea 8 en Barajas hasta la estación de Colombia.<li>Haz trasbordo hacia la línea 9 en el sentido Arganda del Rey.<li>Sigue en la línea 9 hasta Sainz de Baranda.<li>Haz trasbordo hacia la línea 6.<li>Sigue en la línea 6 hasta Pacífico.<li>Haz trasbordo hacia la línea 1 en el sentido Congosto.<li>Sigue en la línea 1 hasta Sierra de Guadalupe.<li>Desde esta estación tendrás que andar unos 10 minutos por la Calle de la Arboleda hasta llegar a la Escuela.</ul>"
+    }
+
+    ,"hotel" : {
+        "title" : "Where to stay?",
+        "text" :"Codemotion tiene un convenio con Barceló Torre Arias para que tu estancia en Madrid te salga más conveniente.<p>Aquí tienes las tarifas reservadas a los asistentes del Codemotion:<p>Para noches de lunes a jueves (ambos incluidos):<ul><li>78,70 € +8% IVA por habitación DUI en régimen de alojamiento y desayuno buffet<li>87,04 € +8% IVA por habitación DBL en régimen de alojamiento y desayuno buffet</ul><p>Para noches de viernes a domingo (ambos incluidos):<ul><li>60,18 € +8% IVA por habitación DUI en régimen de alojamiento y desayuno buffet<li>68,52 € +8% IVA por habitación DBL en régimen de alojamiento y desayuno buffet</ul><p>Tarifas válidas para reservas realizadas directamente con el hotel vía e-mail (torrearias@barcelo.com) o teléfono (91 387 94 00) solicitando tarifa especial “CODEMOTION”.<p>Barceló Torre Arias<br/>Julián Camarillo, 19-21<br/>28037 Madrid"
+    }
+  }
+
+  ,"sponsors_descriptions": {
+  
+    "oracle_short_desc" : "Oracle Corporation desarrolla soluciones de hardware y software para trabajar conjuntamente en la nube y centros de datos. Es la compañía que ofrece soluciones tecnológicas para empresas de forma más abierta, completa e integrada del mundo. La compañía ha alcanzado unos ingresos anuales de 35.600 millones de dólares y cuenta con oficinas en más de 145 países a nivel mundial."
+
+    ,"oracle_big_desc_header" : "Una de las grandes compañías de hardware y software que existen en nuestro país es, sin duda, Oracle.<p>Desde la persistencia de datos, hasta el servidor de aplicaciones, pasando por frameworks, lenguajes o herramientas utilizadas durante el proceso de desarrollo. Oracle tiene mucho que ofrecer a los desarrolladores."
+    
+    ,"oracle_big_desc_body" : "Oracle Corporation desarrolla soluciones de hardware y software para trabajar conjuntamente en la nube y centros de datos. Es la compañía que ofrece soluciones tecnológicas para empresas de forma más abierta, completa e integrada del mundo. La compañía ha alcanzado unos ingresos anuales de 35.600 millones de dólares y cuenta con oficinas en más de 145 países a nivel mundial.<p>El objetivo de Oracle es ofrecer productos y servicios tecnológicos que simplifiquen, automaticen, centralicen y protejan la gestión de información de las empresas y las instituciones. En el año 2004 Oracle comenzó una estrategia de adquisiciones que hoy suma más de 60 empresas integradas a Oracle y complementan el portafolio de productos y servicios.Desde 1986 Oracle cuenta con una sede en España y oficinas en Madrid, Barcelona, Valencia, Bilbao, Sevilla, A Coruña y Málaga, donde está instalado en el Parque Tecnológico de Andalucia, el Málaga International Consulting Center (MICC) que ofrece servicios a clientes de toda Europa.<p>Más información: http://www.oracle.com/es"
+
+    ,"microsoft_short_desc" : "Los desarrolladores están cada vez más preparados y motivados para seguir mejorando día a día. Codemotion es una prueba de este compromiso.<p>Desde Microsoft no queríamos perdernos este encuentro y la oportunidad de intercambio de conocimiento que supone el tener tantos desarrolladores con experiencias en diferentes campos.<p>Por cierto… Microsoft es una multinacional de Software que tiene sede en Seattle y muchos otros países… entre ellos España. Nos vemos en Codemotion!"
+    
+    ,"microsoft_big_desc_header" : "Microsoft es el líder mundial de software para informática personal y de empresas. La compañía ofrece un amplio abanico de productos y servicios diseñados para contribuir tanto al desarrollo del talento de las personas como al potencial de las empresas aumentando así su eficacia, productividad y capacidad competitiva."
+
+    ,"microsoft_big_desc_body" : "En los últimos 20 años Microsoft ha trabajado en España en colaboración con todos los agentes económicos, políticos y sociales con un único objetivo: colaborar al desarrollo de la Sociedad del Conocimiento en nuestro país.<p>En este tiempo, hemos superado los 700 empleados facilitando la creación de una red de empresas colaboradoras compuesta por más de 12.000 partners que dan trabajo a 196.000 personas y que generan un volumen de negocio de 11 euros por cada euro facturado por Microsoft en España.<p>Nuestra tecnología puede contribuye el grado de modernización de la sociedad española, empezando por ayudar a las empresas a ser más competitivas y a las Administraciones públicas a desarrollar vías de comunicación eficaces que dinamicen sus relaciones con los ciudadanos.<p>Microsoft tiene sede en España en Madrid, Barcelona , Sevilla , Bilbao y Valencia<p>Más información: http://msdn.com/es-es/"
+
+    ,"medianet_short_desc" : "MediaNet Software es una empresa española fundada en 1995 especializada en el desarrollo de software. El área técnica de Media Net está formada por 190 profesionales genios del código, inquietos de aprendizaje, apasionados por la tecnología, y sobre todo, castigadores del \"pufismo\" y apóstatas del trabajo mal hecho.<p>Nuestro objetivo es seguir incorporando nuevos talentos y nuevos clientes; y no menos importante mantener todo lo que hemos conseguido hasta ahora: un excelente equipo humano."
+
+    ,"medianet_big_desc_header" : "MediaNet Software es una empresa española fundada en 1995 especializada en servicios de consultoría tecnológica y desarrollo de software a medida."
+
+    ,"medianet_big_desc_body" : "El área técnica de MediaNet está formada por 190 especialistas que comparten una alta capacitación técnica y unas cualidades personales que representan los valores corporativos de interés por asumir nuevos retos, trabajo en equipo, vocación de aprendizaje y compromiso. Nuestras principales áreas de experiencia incluyen las tecnologías J2EE y .NET así como aplicaciones en el ámbito de la movilidad para iOS y Android. Complementamos nuestra estructura técnica con un Área de User Experience y de Desarrollo Front, y nuestra oferta de servicios como proveedores de soluciones de Computación en la Nube.<p>Entre nuestros clientes se encuentra una amplia variedad de empresas de los sectores de ingeniería, medios de comunicación y banca, y un historial de más de 300 proyectos llevados a cabo con éxito. A lo largo de estos años MediaNet ha sido además semilla e incubadora de start-ups de internet como BuyVIP, Mercadeuda.com y Ready4Ventures.<p>El trabajo bien hecho, la calidad de nuestro equipo humano, y la satisfacción de nuestros clientes son los principales ejes del crecimiento de nuestra compañía, lo que nos lleva a necesitar incorporar buenos profesionales para un gran número de proyectos en marcha.<p>Más información: http://www.medianet.es"
+
+    ,"atlassian_short_desc" : "Con el objetivo de hacer más fácil la vida a los desarrolladores, Atlassian es una compañía creada por programadores para programadores y formada por gente como nosotros: más de 400 geeks, fans de Star Wars, fanáticos de la cerveza y pésimos jugadores de ping-pong que comparten la misma pasión: desarrollar software.!"
+
+    ,"atlassian_big_desc_header" : "Sin rodeos, construir software –buen software- es muy difícil. Si existe una empresa <strong>dedicada a hacer más fácil la vida de los desarrolladores</strong>, ayudándoles a trabajar más rápido y con más calidad, facilitando el trabajo colaborativo, probablemente, esa sea Atlassian.<p><strong>Atlassian es una compañía creada por programadores para programadores</strong> y formada por gente como nosotros: más de 400 geeks, fans de Star Wars, fanáticos de la cerveza y pésimos jugadores de ping-pong que comparten la misma pasión: <strong>desarrollar software.</strong>"
+
+    ,"atlassian_big_desc_body" : "Con esa filosofía, promover y ayudar a las distintas Comunidades técnicas esta en el ADN de Atlassian. Además, aunque sea una compañía internacional, con oficinas en Sídney, San Francisco y Ámsterdam, Atlassian ha apostado firmemente por España y la Comunidad técnica local: no sólo está patrocinando eventos como la Apache Barcamp Spain, Agile Open Space, Greach, Spring.io o el propio Codemotion, sino que apoya directamente a asociaciones como Madrid.JS, y ya tiene su primer AUG -Atlassian User Group- un divertidísimo punto de encuentro para todos los amantes del software.<p>Atlassian lleva 10 años trabajando para conseguir que desarrollar software de calidad sea una tarea más sencilla, con más de una decena de productos que cubren todo el ciclo de desarrollo de software: desde la planificación de proyectos ágiles hasta la gestión de incidencias, la documentación o la integración continua.<p>Con licencias a partir de los 10 euros, los productos de Atlassian están al alcance de todos. Pero la filosofía de Atlassian va mucho más allá de sus productos. Como patrocinadores, nunca dejan indiferentes en los eventos en los que participan, sumándose a la fiesta o... ¡Incluso haciéndose cargo de la misma! Por eso, te animamos a que te pases por su stand en Codemotion y conozcas, de la mano de su sorprendente embajador en España, a alguno de sus más de 17.000 clientes -como Facebook, Twitter, Apache o Pixar- y, sobre todo, como pueden ayudarte.<p>Más información: http://www.atlassian.com/es/"
+
+    ,"bq_short_desc" : "bq es una empresa española dedicada al diseño, fabricación y distribución de e-readers y tablets PC. Es una de las marcas líder en lectores de libros electrónicos en España y el desarrollador oficial de los e-readers de Movistar (Movistar ebook bq), Fnac (Libro electrónico Fnac) y Casa del Libro (Tagus). Desde 2011 figura en el top 3 de empresas que más tablets con sistema operativo Android vende en España."
+
+     ,"bq_big_desc_header" : "El ejemplo de que desde la universidad se puede crear y emprender es nuestro patrocinador bq. Con origen en el 2009 en la ETSIT de la UPM, se han convertido, en sólo tres años en pioneros en el mercado español de e-readers.<p>Somos una empresa española dedicada al diseño, fabricación y distribución de e-readers y tablets PC."
+
+     ,"bq_big_desc_body" : "En bq somos pioneros en el mercado español de e-readers, en el que operamos desde 2009. Durante el 2011 hemos experimentado un crecimiento del 400%, los e-readers bq se han convertido en los lectores de libros electrónicos españoles más vendidos del mercado y nuestras tablets han entrado en el top 3 de las tablets con S.O Android más vendidas en España.<p>Con origen en la ETSIT de la Universidad Politécnica de Madrid, en bq somos cientos de trabajadores, en su mayoría ingenieros de telecomunicaciones e informática. Contamos con departamentos diferenciados de desarrollo de software para e-readers y tablets bq, así como para desarrollo de proyectos para terceras empresas: somos el desarrollador oficial de los e-readers de Movistar (Movistar ebook bq), Fnac (Libro electrónico Fnac) y Casa del Libro (Tagus) y la tablet de Planeta (bq Livingstone).<p>Contamos con profesionales de alta cualificación de más de 10 nacionalidades repartidos en nuestras sedes oficiales en España, Taiwan, China, Buenos Aires y Montevideo. Con sede central en Madrid, operamos en Latinoamérica, en el mercado portugués y en el resto de Europa a través de partners estratégicos.<p>No dejes de acercarte por su stand para conocerlos a ellos y a sus productos, de primera mano.<p>Más información: http://www.bqreaders.com/"
+
+    ,"vilt_short_desc" : "VILT es una compañía ibérica de tecnología, fundada en 2002, especializada en Enterprise Content Management (ECM) que ha estado aportando su conocimiento en todo el mundo, con proyectos en Europa, Oriente Medio, NorteAmérica y Suramérica<p>VILT es un caso real de éxito de internacionalización, con un crecimiento basado en el conocimiento humano que crea soluciones innovadoras, mejorando la eficiencia en la organización de los clientes.<p>Actualmente, VILT está formado por 70 empleados en 3 paises: Portugal, España y Brasil.<p>¡Buscamos nuevo talento!"
+
+    ,"vilt_big_desc_header" : "VILT es una compañía ibérica de tecnología, fundada en 2002 por tres Consultores Senior de VPS (Vignette Professional Services). Fundada por expertos en Enterprise Content Management (ECM), VILT se orientó como una compañía especializada en ECM, buscando la creación de soluciones innovadoras y servicios que aporten valor añadido a los clientes."
+
+    ,"vilt_big_desc_body" : "VILT ha aportado valor en proyectos de todo el mundo, con docenas de proyectos de éxito en Europa, Oriente Medio, NorteAmérica y Suramérica, mejorando la eficiencia de la organización de los clientes.<p>VILT es un caso real de éxito internacional, cuyo crecimiento está basado en el conocimiento humano, en un equipo de especialistas que afrontan los retos con la mejor actitud, convirtiendo VILT en un partner estratégico de sus clientes.<p>Actualmente, el equipo de VILT está formado por 70 empleados en 3 paises: Portugal, España y Brasil. ¡Buscamos nuevo talento!<p><ul><li>Hazte un experto en ECM.<li>Con buen conocimiento técnico<li>En proyectos interesantes en todo el mundo.<li>3 oficinas: Portugal, España, Brasil.<li>Un gran ambiente de trabajo<li>Equipo jóven y dinámico</ul><p>¿Estás preparado? ¡Envíanos tu CV! ¡O conócenos en nuestro stand en el codemotion!<p>Más información: http://www.vilt-group.com"
+
+    ,"coritel_short_desc" : "Coritel es una empresa del Grupo Accenture especializada en la prestación de Servicios Tecnológicos específicos por entorno, lenguaje, plataforma y solución. Con más de 4.000 profesionales y 25 años de experiencia al servicio del cliente, Coritel tiene oficinas en Madrid, Barcelona, Valencia, Sevilla, Bilbao, Zaragoza, Alicante, Málaga y A Coruña. Además es parte de la red global del Grupo Accenture, presente en 120 países con más de 244.000 profesionales. Más información en coritel.es"
+
+    ,"coritel_big_desc_header" : "Coritel es una empresa del Grupo Accenture especializada en la prestación de Servicios Tecnológicos específicos por entorno, lenguaje, plataforma y solución."
+
+    ,"coritel_big_desc_body" : "Con más de 4.000 profesionales y 25 años de experiencia al servicio del cliente, Coritel tiene oficinas en nueve ciudades españolas: Madrid, Barcelona, Valencia, Sevilla, Bilbao, Zaragoza, Alicante, Málaga y A Coruña. Además está inmersa en la red global del Grupo Accenture, presente en 120 países con más de 244.000 profesionales.<p>Nuestro objetivo es complementar las capacidades tecnológicas de nuestros clientes y ayudarles a convertir sus organizaciones en negocios de alto rendimiento y mayor competitividad, satisfaciendo sus necesidades y prioridades tecnológicas con soluciones flexibles y de calidad.<p>Ofrecemos una completa gama de servicios, desde el desplazamiento de profesionales a las instalaciones del cliente para integrarse en sus equipos, hasta opciones más complejas basadas en acuerdos de alcance y/o nivel de servicio utilizando distintas localizaciones, centros o herramientas.<p>Nuestra estrategia descansa en la inversión que realizamos en la formación de nuestros profesionales, apoyándonos en sus capacidades tecnológicas y en la utilización de métodos y herramientas cada vez más industrializados y seguros, para poder ofrecer a nuestros clientes los servicios que más se adapten a sus necesidades. Esta estrategia se sustenta en dos pilares:<p><ul><li>Nuestros clientes: entendemos sus expectativas, y nos adaptamos a sus necesidades concretas, aportando flexibilidad y elasticidad, buscando soluciones de calidad y complementando sus propias capacidades.<li>Nuestros profesionales: su conocimiento, compromiso y especialización son la base de nuestros logros.</ul><p>Más información: http://coritel.es/"
+
+
+    ,"extrema_short_desc" : "En Extrema Sistemas nos dedicamos a ingeniería de aplicaciones para grandes empresas. Hasta ahora hemos hecho mentoring y diseño de arquitecturas para aplicaciones de control aeroportuario, ferrocarriles, banca, control de puertos y Departamento de Defensa, entre otros. Hemos colaborado en diseñar el core business de multitud de bancos entre los que se encuentran BBVA, Banco de España y Caja Madrid.<p>También somos la primera empresa de formación Java en la actualidad, siendo los partners oficiales de Spring y Javaspecialists en España e Italia."
+
+    ,"extrema_big_desc_header" :"En Extrema Sistemas nos dedicamos a ingeniería de aplicaciones para grandes empresas. Hasta ahora hemos hecho mentoring y diseño de arquitecturas para aplicaciones de control aeroportuario, ferrocarriles, banca, control de puertos y Departamento de Defensa, entre otros. Hemos colaborado en diseñar el core business de multitud de bancos entre los que se encuentran BBVA, Banco de España y Caja Madrid."
+
+    ,"extrema_big_desc_body" : "También somos la primera empresa de formación Java en la actualidad, siendo los partners oficiales de Spring y Javaspecialists en España e Italia. A nuestros cursos han acudido las grandes consultoras (Deloitte, Accenture, etc) así como las divisiones de informática de grandes empresas, entre las que destacan: Banco de España, Telefónica, BBVA, Indra, IECISA, Mapfre, Carrefour, Iberdrola, ISBAN, etc. Tenemos oficinas en Madrid y Santa Cruz de Tenerife. Y aunque somos pocos abarcamos mucho contando con presencia internacional en Suiza e Italia.<p>Somos asimismo un referente en nuevas tecnologías en países de habla hispana. Apoyamos a las comunidades de desarrolladores, por ello nos gusta estar presente en los eventos más importantes de IT que se organizan en España. La última charla que impartimos en el Apache Barcamp de Sevilla en Octubre de 2011 se llevó el premio al mejor ponente y mejor charla.<p>Más información: http://extrema-sistemas.com"
+
+    ,"ibm_short_desc" : "IBM es la compañía líder mundial de Tecnologías de la Información. Está presente en 170 países y tiene una plantilla mundial de unos 400.000 profesionales. La estrategia de IBM se alinea en torno a un único modelo de negocio: la innovación. IBM asegura su competencia en análisis de temas, procesos y operaciones al servicio de una amplia variedad de sectores. Asimismo, desarrollamos y aplicamos soluciones tecnológicas que ayudan a nuestros clientes a resolver los problemas más complejos. Aunque nuestro compromiso sigue siendo liderar el desarrollo de las tecnologías de vanguardia y los productos y servicios que se construyen en torno a ellas, hoy en día nuestros resultados se miden por la eficiencia que garantizamos a nuestros clientes y nuestra capacidad para dar respuesta a sus necesidades."
+
+    ,"ibm_big_desc_header" :"IBM es la compañía líder mundial de Tecnologías de la Información. Está presente en 170 países y tiene una plantilla mundial de unos 400.000 profesionales. Su actividad está centrada en proporcionar a sus clientes soluciones tecnológicas y servicios de consultoría de negocio y tecnologías de la información que contribuyan al éxito de sus negocios."
+
+    ,"ibm_big_desc_body" :"Desde su fundación en Estados Unidos en 1911, IBM se ha mantenido a la vanguardia de la tecnología, con 76.000 patentes registradas desde ese año. Sus actividades incluyen la investigación, desarrollo, fabricación y comercialización de tecnologías y productos de hardware y software, así como distribución de servicios tecnológicos, outsourcing, integración de sistemas y consultoría de negocio. En España, está presente desde hace 85 años. En 2010, la compañía obtuvo unos ingresos de 99.870 millones de dólares a nivel mundial, un 4,3% más y un beneficio récord de 14.800 millones de dólares, un 10% más.<p>La oferta de hardware, software, servicios y financiación de IBM es la más completa del mercado, lo que permite a la Compañía ofrecer soluciones tecnológicas a cualquier tipo de cliente, desde usuarios particulares hasta instituciones y grandes empresas de cualquier sector de actividad.<p>Más información: http://www.ibm.com/software/es/rational"
+
+    ,"tuenti_short_desc" : "Tuenti es una plataforma de comunicación social que tiene el objetivo de mejorar la comunicación y la información compartida entre personas que se conocen. Desde su creación en el año 2006, nuestra empresa ha experimentado un espectacular crecimiento en todos los aspectos, convirtiéndose en la página web con más tráfico de España y, con más de 13 millones de usuarios, en una de las redes sociales de acceso por invitación más grandes del mundo"
+
+    ,"tuenti_big_desc_header" : "Tuenti es una plataforma de comunicación social que tiene el objetivo de mejorar la comunicación y la información compartida entre personas que se conocen. Desde su creación en el año 2006, nuestra empresa ha experimentado un espectacular crecimiento en todos los aspectos, convirtiéndose en la página web con más tráfico de España y, con más de 13 millones de usuarios, en una de las redes sociales de acceso por invitación más grandes del mundo"
+
+    ,"tuenti_big_desc_body" : "De acuerdo con nuestras estadísticas más recientes, contamos con alrededor de 1.200 servidores, 38.000 millones de páginas vistas al mes (alcanzando más de 35.000 por segundo), servimos 6 millones de fotos al día, con picos de tránsito de 22Gbps (incluyendo CDNs) y 4Gbps desde origen, y una media de 3.5 millones de fotos son subidas diariamente y 200 millones de mensajes de chat diarios. Para conocer más información sobre nosotros puedes echar un vistazo a dev.tuenti.com.<p>Somos una empresa pionera en constante crecimiento y evolución. Actualmente contamos con alrededor de 275 empleados, siendo el 60% de ellos ingenieros. Nuestra plantilla de 23 nacionalidades incluye a personas de las mejores instituciones y compañías del mundo (Harvard, MIT, etc.). En estos momentos estamos buscando ingenieros de software que quieran enfrentarse a retos día a día, solucionando problemas complejos, innovando y colaborando con los mejores profesionales del sector. Si tienes pasión por los proyectos open source y entornos de start-up, LAMP, Javascript y Web 2.0 en general, ¡queremos hablar contigo! En Tuenti siempre estamos buscando ampliar nuestro equipo de ingeniería y contratar a los mejores profesionales de cada área. Tanto si eres un estudiante, un recién titulado buscando tu primer trabajo, o un desarrollador con experiencia que busca su próximo reto, ¡tenemos un sitio para ti! ¡Pásate por jobs.tuenti.com o envíanos tu CV a talent@tuenti.com!<p>Más información: http://blog.tuenti.com/dev/"
+
+    ,"paradigma_short_desc" : "Somos un equipo de personas apasionadas por la tecnología. Diseñamos productos únicos siguiendo nuestra propia filosofía, en la cual la innovación y el diseño de experiencia de usuario forman parte de un proceso que compartimos y que hacemos crecer con nuestros clientes. No nos interesan las horas que pueda llevar hacer algo; nos interesa convertir la tecnología en una solución adaptada a una necesidad."
+
+    ,"paradigma_big_desc_header" : "Comenzamos a caminar allá por el año 1996, cuando nadie había oído hablar de Java ni .Net. Desde entonces hemos trabajado con múltiples empresas de prestigio compartiendo con ellas nuestra pasión por la tecnología, la innovación y las cosas bien hechas."
+
+    ,"paradigma_big_desc_body" : "Tocamos bastantes palos. Sabemos de Big Data y Web Data Mining; de procesamiento de lenguaje natural y de técnicas de visualización de datos. Pero sobre todo tenemos la curiosidad y la inquietud necesarias para cuestionarnos todo e ir un poco más allá. Esta inquietud incombustible y las personas que formamos parte de “esto” nos permiten solucionar mejor y de forma más eficaz. Por eso seguimos en la brecha quince años después.<p>Hemos aprendido de los muchos años de experiencia que un equipo preparado es la mejor forma de aportar valor en cualquier tarea que emprendemos. Por eso creemos en la formación de nuestra gente, en la innovación como motor de cuanto hacemos y en la experiencia de usuario como medio para aplicar tecnologías que aún están naciendo y que ya hemos hecho nuestras. Diseñamos productos útiles, pero además hacemos que parezca sencillo.<p>Más información: http://www.paradigmatecnologico.com/"
+
+    ,"amazon_short_desc" : "En Amazon nos esforzamos por ser la compañía más orientada al cliente del mundo, donde las personas puedan encontrar online cualquier cosa que deseen comprar. La evolución de Amazon desde página web a partner e-commerce y por último a plataforma de desarrollo está dirigida por el espíritu de innovación que llevamos en nuestro ADN. Contratamos a las mentes más brillantes del mundo ofreciéndoles un entorno motivador que les ayude a mejorar la experiencia de nuestros clientes continuamente.<p>Hacemos esto cada día al resolver problemas técnicos y empresariales con ingenio y simplicidad. Estamos haciendo historia y la buena noticia es que sólo acabamos de empezar."
+
+    ,"amazon_big_desc_header" : "En Amazon nos esforzamos por ser la compañía más orientada al cliente del mundo, donde las personas puedan encontrar online cualquier cosa que deseen comprar. La evolución de Amazon desde página web a partner e-commerce y por último a plataforma de desarrollo está dirigida por el espíritu de innovación que llevamos en nuestro ADN. Contratamos a las mentes más brillantes del mundo ofreciéndoles un entorno motivador que les ayude a mejorar la experiencia de nuestros clientes continuamente.<p>Hacemos esto cada día al resolver problemas técnicos y empresariales con ingenio y simplicidad. Estamos haciendo historia y la buena noticia es que sólo acabamos de empezar."
+
+    ,"amazon_big_desc_body" : "Amazon Data Services Irlanda abrió sus puertas en 2005 con su soporte a operaciones minoristas y una creciente división de Amazon Web Services (AWS). Estamos buscando ingenieros y managers altamente motivados y llenos de energía para garantizar que nuestros websites, aplicaciones e infraestructuras sean diseñadas e implementadas según los estándares más altos manteniendo y mejorando al mismo tiempo la confianza de nuestros clientes. A parte de construir y operar cientos de los mejores aplicativos web del mundo, Amazon produce software para todo tipo de redes y dispositivos. Entre esta inmensidad de funcionalidades web y centenares de aplicaciones están algunas de las tecnologías más innovadoras y fascinantes del mundo, tales como el Kindle, aplicaciones mobile para las principales plataformas, y todo tipo de web services para computación en la nube.<p>Contáctanos a dublinrecruitment@amazon.com – Dublín, Irlanda<p>Más información: http://www.amazon.co.uk/careers"
+
+    ,"tid_short_desc" : "Telefónica Digital realiza sus actividades de innovación y desarrollo de producto en Telefónica I+D. Para ello, tiene puesto en marcha un marco de innovación abierta organizada alrededor de su red de laboratorios. Este entorno potencia el carácter emprendedor de sus actividades fomentándose tanto la incorporación de tecnología externa, que se adapta para su utilización dentro de la empresa, como por la puesta en el mercado de tecnología desarrollada internamente, cuando se detecta que esta puede ser de interés en otros entornos."
+  
+    ,"tid_big_desc_header" : "Telefónica Digital es una división de negocio global de Telefónica. Su misión es capturar las oportunidades que surgen en el mundo digital y contribuir al crecimiento de Telefónica a través de la investigación y el desarrollo, iniciativas de capital riesgo, alianzas globales y servicios digitales, como la computación en la nube (o cloud computing), la publicidad móvil, las soluciones M2M y servicios financieros."
+  
+    ,"tid_big_desc_body" : "Telefónica Digital ofrecerá estos innovadores productos y servicios a los 300 millones de clientes de Telefónica y, además, aprovechará el potencial de internet para introducirse en nuevos mercados. Telefónica Digital tiene su sede en Londres y cuenta con centros regionales en Silicon Valley, São Paulo, España y Tel Aviv. Jajah, Terra, Tuenti, giffgaff y 48 son compañías del Grupo Telefónica.<p>Telefónica Digital realiza sus actividades de innovación y desarrollo de producto en Telefónica I+D, la empresa de investigación y desarrollo del grupo Telefónica. Para ello, tiene puesto en marcha un marco de innovación abierta organizada alrededor de su red de laboratorios. Este entorno potencia el carácter emprendedor de sus actividades fomentándose tanto la incorporación de tecnología externa, que se adapta para su utilización dentro de la empresa, como por la puesta en el mercado de tecnología desarrollada internamente, cuando se detecta que esta puede ser de interés en otros entornos.<p>Los productos desarrollados por Telefónica Digital buscan conjugar la excelencia técnica, que se consigue gracias al excelente nivel de sus técnicos y desarrolladores, con la excelencia en la experiencia de usuario de sus productos, posible por contar con una unidad propia especializada en estas tareas.<p>Más información: http://www.tid.es"
+
+    ,"mozilla_short_desc" : "Mozilla es una organización global sin ánimo de lucro dedicada a hacer de la web algo mejor. Creemos en los principios antes que en los beneficios, y que Internet es más un recurso al que cuidar que una mercancía para vender. Trabajamos como una comunidad global para crear productos gratuitos, libres y de código abierto como Mozilla Firefox e innovar para el beneficio de los individuos y el perfeccionamiento de la web."
+
+    ,"mozilla_big_desc_header" : "Estamos muy orgullosos de ser una organización sin ánimo de lucro. No tenemos siglas fantásticas que aparecen junto a nuestro nombre en la prensa. No tenemos «grandes gurús» que están por encima de los demás. No llegamos a los mismos acuerdos, ni firmamos los mismos contratos o estrechamos las mismas manos que los demás."
+
+    ,"mozilla_big_desc_body" : "Somos un grupo de personas con espíritu independiente, originales, que hacemos las cosas de una manera diferente. Donde otra compañías valoran solo los beneficios, nosotros valoramos ... bueno, los valores. Cuando los competidores consideran hacer algo privativo y patentado, nosotros luchamos por hacerlo libre y abierto. Y mientras la mayoría de productos y tecnologías se desarrollan en entornos cerrados, las nuestras se cultivan abiertas, para que todo el mundo pueda verlas.<p>No tenemos ni participaciones, ni acciones, ni autoridades. No rendimos cuentas ante nadie, excepto ante nuestros usuarios. Y lo hacemos así porque creemos en unos valores: creemos en los principios antes que en las ganancias; creemos que la comunidad es más importante que los intereses corporativos; creemos que la Web es más un recurso al que hay que cuidar que una mera mercancía que se pueda vender.<p>Y creemos firmemente en la innovación y, más importante aún, en los usuarios. Creemos que Mozilla Firefox, el mejor navegador del mundo, es posible gracias a ingenieros, programadores, diseñadores y gente como tú, que comparten su tiempo, talento y energía.<p>Y creemos que unidos por estos valores podemos seguir innovando para el beneficio de los individuos y la mejora continua de la Web.<p>Más información: http://www.mozilla.org/"
+  }
+
+  ,"communities_descriptions": {
+
+    "agile_short_desc"  :"<h5>Metodologías Ágiles</h5>Agile Spain es una asociación comprometida con las metodologías ágiles y el desarrollo del software Ágil. Creemos profundamente en este enfoque y en sus beneficios y por este motivo queremos mejorar el conocimiento de la agilidad en España y extender su uso entre empresas y profesionales."
+     
+    ,"android_short_desc" : "<h5>Android / Mobile</h5>AndroidStartup es un espacio creado para emprendedores y programadores Android. Nuestro objetivo es promover el conocimiento de la plataforma Android e incentivar el desarrollo de nuevas ideas."
+
+    ,"artalde_short_desc" : "<h5>.Net</h5>Artalde.NET ( Euskadi Microsoft .NET User Group ) es un grupo de desarrolladores .NET con especial interés en activar y potenciar la comunidad de desarrolladores local a través de eventos y herramientas que faciliten la comunicación entre los miembros del grupo"
+
+    ,"cloudes_short_desc" : "<h5>Cloud / Tecnologías Microsoft</h5>Cloudes es un grupo de usuarios dedicado a fomentar el conocimiento y uso de plataformas y tecnologías en la nube."
+
+    ,"devops_short_desc" : "<h5>Devops / Agilismo entre desarrollo y sistemas</h5>Madrid devops es un grupo de profesionales interesados en los avances (culturales y técnicos) que se dan en el ámbito de operaciones y administración de sistemas."
+
+    ,"geeks_short_desc" : "<h5>Tecnologías Microsoft</h5>Todo lo que los geeks de Windows y .Net tienen que contar"
+
+    ,"gtug_short_desc" : "<h5>Tecnologías Google</h5>Google Technology User Groups (GTUGs) are user groups for people who are interested in Google’s developer technology; everything from the Android and App Engine platforms, to product APIs like the YouTube API and the Google Calendar API, to initiatives like OpenSocial"
+
+    ,"gug_short_desc" : "<h5>Groovy, Grails, Griffon...</h5>Somos un grupo de personas interesadas en Groovy y en el ecosistema creado alrededor de este lenguaje: Grails, Griffon, Gaelyk, etc."
+
+    ,"html5party_short_desc" : "<h5>HTML5 / Web</h5>HTML5Party organizan eventos para desarrolladores en torno a las tecnologías del navegador y su nuevo comienzo, HTML5."
+
+    ,"javahispano_short_desc" : "<h5>Java / Spring</h5>La comunidad que agrupa a los desarrolladores de Java de España y Latinoamérica"
+
+    ,"donnet_short_desc" : "<h5>.Net</h5>Grupo de usuarios .Net de Madrid"
+
+    ,"madpython_short_desc" : "<h5>Python</h5>Python Madrid es un grupo donde la gente de Madrid y alrededores se organiza para realizar reuniones donde la tónica general es hablar de Python y donde varias personas hacen una presentación sobre un tema relacionado con Python."
+
+    ,"madridjs_short_desc" : "<h5>JavaScript / Web</h5>Nos gusta la programación, nos apasiona JavaScript y vivimos en Madrid. Si coincides en dos de estas tres cosas pásate por el grupo."
+
+    ,"madridrb_short_desc" : "<h5>Ruby</h5>Madrid.rb es el nombre del grupo de usuarios de Ruby de Madrid. Nos reunimos el último jueves de cada mes y cualquiera que tenga interés o curiosidad es bienvenido."
+
+    ,"madridjug_short_desc" : "<h5>Java</h5>El Madrid Java User Group (Madrid JUG) es un grupo de desarrolladores Java cuyo interés es compartir el conocimiento y realizar/patrocinar actividades en torno a Java en el área de Madrid, España"
+
+    ,"nscoders_short_desc" : "<h5>Objective-C, OS X, iOS</h5>NSCoder Night Madrid es un evento semanal donde desarrolladores y diseñadores de iOS y Mac OS X se reúnen en un ambiente informal y relajado."
+
+    ,"suges_short_desc" : "<h5>Tecnologías Microsoft</h5>Grupo de Usuarios de SharePoint España que comparten información, tips, trucos y recursos."
+
+    ,"simfony_short_desc" : "<h5>Php / symfony</h5>\"Symfony Madrid\" es un grupo de personas creativas, innovadoras y entusiastas que han apostado por el framework Symfony para sus desarrollos web y desean reunirse para intercambiar ideas y crear un conocimiento común."
+
+    ,"drupal_short_desc" : "<h5>Php / drupal</h5>La Asociación Española de Drupal es una organización sin ánimo de lucro, creada por voluntarios y que pretende ser referencia y punto de encuentro en España para aficionados y profesionales de Drupal, así como un importante pilar en la comunidad hispanohablante."
+
+    ,"riojadotnet_short_desc" : "<h5>.Net</h5>Rioja DotNet nace de la necesidad de crear un sitio de encuentro para todos los interesados en la tecnología .NET en La Rioja. Nuestro objetivo fundamental es poder formar sinergias entre los asociados que nos permitan aprender, compartir conocimiento, crecer profesionalmente … Todo ello de una manera altruista y desinteresada."
+
+    ,"mozilla_short_desc" : "<h5>Mozilla</h5>La comunidad Mozilla en Español."
+
+  }
+
+  ,"colaborators_descriptions" : {
+     "eui_short_desc": "<h5>Sede del Codemotion 2012</h5>La Escuela Universitaria de Informática (EUI) se creó el 27 de octubre de 1978 y, desde el primer momento, ha sido el Centro de referencia de la Ingeniería Técnica Informática en España. Los miles de titulados que han salido de sus aulas trabajan y ocupan cargos de responsabilidad en empresas punteras del sector de las Tecnologías de la Información y las Comunicaciones."
+
+     ,"ritsi_short_desc" : "La RITSI es la Asociación Nacional de Estudiantes de Ingenierías e Ingenierías Técnicas en Informática. Representa a alrededor de 90.000 estudiantes en toda España, una de las sectoriales más grandes del país. RITSI promocionará el evento entre las universidades y ayudará a la organización de los viajes de estudiantes a Madrid donde sea posible."
+
+     ,"wiseri_short_desc" :"Wiseri es la comunidad de búsqueda de empleo que ayudará y aconsejará a los asistentes para sacar el máximo partido de la oportunidad de contacto con las empresas que patrocinan el Codemotion. Wiseri nos dará los consejos para realizar mejores curriculums, para saber cómo acercarse a los patrocinadores de forma que sepamos transmitir toda la valía de nuestro perfil."
+
+     ,"televeo_short_desc" : "Televeo.com es una “Televisión por Internet” pionera en el mercado Español, especializada en la emisión de contenidos profesionales y de calidad. Su tecnología y servicios se aplican además al mundo empresarial ofreciendo tecnología de WebTV’s, videostreaming y servicios de producción y emisión de eventos en directo por Internet."
+
+     ,"smf_short_desc" : "The Social Media Family es una compañía especializada en la gestión integral de una estrategia de Comunicación 2.0. Enfocada hacia el desarrollo e implementación de estrategias online, ofrece además servicios de posicionamiento, Community Management, formación y desarrollos web. Fundada en septiembre de 2010, su misión es ayudar a que cualquier colectivo que lo desee pueda estar en contacto y compartir sus pensamientos." 
+
+     ,"genbetadev_short_desc" : "Genbetadev es un weblog colectivo con vocación de negocio, que pretende ser un recurso útil para los desarrollados profesionales, con información y análisis de la actualidad de plataformas, así como de aspectos de su vida profesional como el mercado laboral, productividad y otros." 
+
+     ,"bonillaware_short_desc" : "Consultor autónomo e independiente de marketing estratégico aplicado a Tecnologías de la Información. Si tienes una idea, página web, aplicación o servicio que quieras comercializar, puedo ayudarte." 
+
+     ,"desarrolloWeb_short_desc" : "DesarrolloWeb.com es un sitio que tiene como primer objetivo el ayudar a otras personas en el diseño de páginas web. Fue fundado en diciembre de 1999, poco antes de comenzar la que se denominó \"crisis de las .com\", ocurrida durante el año 2000." 
+
+     ,"geekms_short_desc" : "Todo lo que los geeks de Windows y .Net tienen que contar" 
+  }
+
+  ,"followUp" : {
+    "title" : "¡Conoce cómo se vivió el Codemotion!",
+    "bodyheader" : "Una retrospectiva de cómo se vivió el Codemotion",
+    "blogs": "<h3>Blog posts from attendants</h3>How attendants lived the codemotion",
+    "press": "<h3>Press</h3>How the media saw the codemotion",
+    "photos": "<h3>Photos</h3>Whatch the photos"
+
+  }
 }
+  

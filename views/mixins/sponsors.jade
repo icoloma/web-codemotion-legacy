@@ -5,3 +5,16 @@ mixin sponsors(title, sponsors)
       li.sponsor.span4
         a(href=sponsor.url, title= sponsor.name)
           img(src="/img/partners/" + sponsor.img)
+
+mixin sponsorsBig(title, sponsors)
+  h3=title
+  .sponsors
+    each sponsor in sponsors
+      .row
+        .span3
+          a(href=sponsor.url, title= sponsor.name)
+            img(src="/img/partners/" + sponsor.img)
+        .span5
+          p !{ lingua.sponsors_descriptions[sponsor.short_desc]}
+          p 
+            a(href="/sponsors/" + sponsor.id) Ver más

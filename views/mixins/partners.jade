@@ -1,0 +1,22 @@
+mixin communities(communities)
+  .sponsors
+    each community in communities
+      .row
+        .span3
+          a(href=community.url, title= community.name)
+            img(src="/img/communities/" + community.img)
+        .span5
+          p !{ lingua.communities_descriptions[community.short_desc]}
+
+
+mixin colaborators(colaborators)
+  .colaborators
+    each colaborator in colaborators
+      .row
+        .span3
+          a(href=colaborator.url, title= colaborator.name)
+            img(src="/img/partners/" + colaborator.img)
+        .span5
+          h4 #{colaborator.name} 
+          p !{ lingua.colaborators_descriptions[colaborator.short_desc]}        
+      

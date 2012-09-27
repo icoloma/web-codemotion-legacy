@@ -4,14 +4,15 @@
  */
 
 lingua = require("lingua");
-  
+_ = require('underscore');  
 
 var express = require('express')
   , routes = require('./routes')
   , http = require('http')
   , path = require('path')
   , sponsors = require('./db/sponsors.js')
-  , communities = require('./db/communities.js');
+  , communities = require('./db/communities.js')
+  , contributors = require('./db/contributors.js');
  
  ;
 
@@ -37,6 +38,7 @@ var app = express();
   app.use(express.static(path.join(__dirname, 'public')));
   app.use(sponsors);
   app.use(communities);
+  app.use(contributors);
   app.use(app.router);
 });
 

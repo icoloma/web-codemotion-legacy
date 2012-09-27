@@ -1,0 +1,18 @@
+extends ../layout
+include ../mixins/sponsors
+
+append content
+
+  h1 !{lingua.sponsors.title}
+
+  .body-header
+    !{lingua.sponsors.bodyheader}
+
+  .body
+    !{lingua.sponsors.body}
+
+    mixin sponsorsBig('Platinum Sponsors', locals.sponsorList.platinum)
+ 
+    mixin sponsorsBig('Gold Sponsors', locals.sponsorList.gold)
+
+    mixin sponsorsBig('Silver Sponsors', locals.sponsorList.silver)

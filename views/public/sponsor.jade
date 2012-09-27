@@ -1,0 +1,17 @@
+extends ../layout
+
+append content
+
+  .sponsor-header
+    
+    a( src=sponsor.url, target="_blank")
+      img( src="/img/partners/" + sponsor.imgBig, title=sponsor.name)
+
+    p 
+      span.label #{sponsor.type}
+
+    .body-header
+      p !{lingua.sponsors_descriptions[sponsor.big_desc_header]}
+
+    .body
+      p !{lingua.sponsors_descriptions[sponsor.big_desc_body]}

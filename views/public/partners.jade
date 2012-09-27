@@ -1,0 +1,24 @@
+extends ../layout
+include ../mixins/partners
+
+append content
+
+  h1 !{lingua.partners.title}
+
+  .body-header
+    !{lingua.partners.bodyheader}
+
+  .body
+    !{lingua.partners.sponsors}
+    !{lingua.partners.communities}
+   
+    mixin communities(locals.communitiesList)
+
+    !{lingua.partners.contributors}
+
+    mixin colaborators(locals.contributorList.contributors)
+
+    !{lingua.partners.mediaPartners}   
+
+
+    mixin colaborators(locals.contributorList.media)

@@ -1,0 +1,48 @@
+extends ../layout
+
+append content
+
+  h1 !{lingua.venue.title}
+
+  .body-header
+    !{lingua.venue.bodyheader}
+
+  .body
+    !{lingua.venue.map}
+
+    p.gmapcont
+    <iframe height="200" width="450" src="http://maps.google.es/maps?f=q&amp;hl=es&amp;geocode=&amp;q=Escuela+Universitaria+de+Inform%C3%A1tica+-+UPM+%4040.3897,-3.62790&amp;ie=UTF8&amp;om=1&amp;source=embed&amp;hq=&amp;hnear=&amp;t=h&amp;vpsrc=6&amp;ll=40.389672,-3.62875&amp;spn=0.006537,0.019355&amp;z=15&amp;output=embed" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" class="nomobile"></iframe>
+
+    //- Descomentar cuando responsive-design
+      <iframe height="200" width="321" src="http://maps.google.es/maps?f=q&amp;hl=es&amp;geocode=&amp;q=Escuela+Universitaria+de+Inform%C3%A1tica+-+UPM+%4040.3897,-3.62790&amp;ie=UTF8&amp;om=1&amp;source=embed&amp;hq=&amp;hnear=&amp;t=h&amp;vpsrc=6&amp;ll=40.389672,-3.62875&amp;spn=0.006537,0.019355&amp;z=15&amp;output=embed" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" class="mobile"></iframe>
+
+    p
+      a(href="http://maps.google.es/maps?f=q&amp;hl=es&amp;geocode=&amp;q=Escuela+Universitaria+de+Inform%C3%A1tica+-+UPM+%4040.3897,-3.62790&amp;ie=UTF8&amp;om=1&amp;source=embed&amp;hq=&amp;hnear=&amp;t=h&amp;vpsrc=6&amp;ll=40.389672,-3.62875&amp;spn=0.006537,0.019355&amp;z=15") !{lingua.venue.seeMap}
+
+    h3 
+      !{lingua.venue.byCar.title}
+    p.sidenote
+      !{lingua.venue.byCar.sidenote}
+    p
+      !{lingua.venue.byCar.text}
+
+    h3 
+      !{lingua.venue.byBus.title}
+    p
+      !{lingua.venue.byBus.text}
+
+    h3 
+      !{lingua.venue.bySubway.title}
+    p
+      !{lingua.venue.bySubway.text}
+
+    h3 
+      !{lingua.venue.byPlane.title}
+    p
+      !{lingua.venue.byPlane.text}
+
+    h3 
+      !{lingua.venue.hotel.title}
+    p
+      !{lingua.venue.hotel.text}
+
