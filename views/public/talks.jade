@@ -1,0 +1,61 @@
+extends ../bare-layout
+
+append main_content
+
+  .container
+
+    h1 !{lingua.talks.title}
+    
+    .body-header
+      !{lingua.schedule.bodyheader}
+
+    .talks
+      each talk in talks
+        .row
+          .span3
+            p.author !{talk.speaker.name}
+            img.authoring(src="/img/speakers/" + talk.speaker.img)
+            if (talk.speaker.blog)
+              p.blog B:
+                a(href=talk.speaker.blog, target='_blank') !{talk.speaker.blog} 
+            if (talk.speaker.mail)
+              p.mail E:
+                a(href="mailto:" +talk.speaker.mail) !{talk.speaker.mail} 
+            if (talk.speaker.twitter)
+              p.mail T:
+                a(href="http://twitter.com/" +talk.speaker.twitter) !{talk.speaker.twitter}           
+
+          .span9
+            p.title
+              a(name=talk.hash) 
+              !{talk.title}
+            p
+              each tech in talk.tech
+                span.label.tech(class='tech_'+tech) !{tech}
+            p !{talk.description}
+            p.buttons
+              a.btn( href="/schedule", title="Schedule")
+                i.icon-calendar
+              if (talk.slides)
+                a.btn( href=talk.slides, title="Slides")
+                  i.icon-file
+              if (talk.code)
+                a.btn( href=talk.code, title="Code")
+                  i.icon-download-alt
+              if (talk.related_videos)
+                each video in talk.related_videos
+                  a.btn( href=video, title="Video")
+                    i.icon-film
+              if (talk.related_posts)
+                each post in talk.related_posts
+                  a.btn( href=post, title="Post")
+                    i.icon-pencil
+
+
+
+
+
+
+           
+
+

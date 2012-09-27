@@ -1,0 +1,65 @@
+extends ../bare-layout
+
+append main_content
+
+  .container
+
+    h1 !{lingua.schedule.title}
+    h3 !{lingua.schedule.sponsors}
+
+    .body-header
+      !{lingua.schedule.bodyheader}
+
+    .body
+      !{lingua.schedule.body}
+
+
+      h2 !{lingua.schedule.talks} 
+      table.schedule
+        thead
+          tr
+            th !{lingua.schedule.table[header.title]}
+            each item in header.talks
+              th !{lingua.schedule.table[item]}
+        tbody
+          each row in schedule
+            tr  
+              td #{row.title}
+              - if (row.talks.length == tracks)
+                each talk in row.talks
+                  td 
+                    a(href='/talks#'+talk.hash)
+                      p.title !{talk.title}
+                      p !{talk.speaker.name}
+                      span.label.lang !{talk.lang}
+                      span.label(class=talk.level) !{talk.level}
+                      each tech in talk.tech
+                        span.label.tech(class='tech_'+tech) !{tech}
+                      
+              - else
+                td.break(colspan=tracks) !{lingua.schedule.table[row.talks[0]]} 
+
+
+      h2 !{lingua.schedule.workshops} 
+      table.schedule
+        thead
+          tr
+            th !{lingua.schedule.table[header.title]}
+            th !{lingua.schedule.table.workshop}
+        tbody
+          each row in workshops
+            tr  
+              td #{row.title}
+                each talk in row.talks
+                  td 
+                    a(href='/talks#'+talk.hash)
+                      p.title !{talk.title}
+                      p !{talk.speaker.name}
+                      span.label.lang !{talk.lang}
+                      span.label(class=talk.level) !{talk.level}
+                      each tech in talk.tech
+                        span.label.tech(class='tech_'+tech) !{tech}
+          
+
+
+

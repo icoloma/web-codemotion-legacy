@@ -1,14 +1,17 @@
+var talks = require('../db/talks.js');
+
 module.exports = function (server) {
  server.get('/', renderPage('home'));
  server.get('/info', renderPage('info'));
  server.get('/venue', renderPage('venue'));
- server.get('/schedule',  renderPage('schedule'));
+ server.get('/schedule',  renderSchedule);
  server.get('/cv',  renderPage('cv'));
  server.get('/contribute',  renderPage('contribute'));
  server.get('/sponsors',  renderPage('sponsors'));
  server.get('/sponsors/:id', showSponsor);
  server.get('/partners',  renderPage('partners'));
  server.get('/follow-up',  renderPage('followUp'));
+ server.get('/talks', renderTalks);
 }
 
 function renderPage(page) {
@@ -18,6 +21,24 @@ function renderPage(page) {
     });
   }
 };
+
+function renderSchedule(req, res){
+  res.render('public/schedule', {
+    title: 'Codemotion',
+    header: talks.schedule[0],
+    schedule: _.rest(talks.schedule),
+    workshops: _.rest(talks.workshops),
+    tracks: talks.tracks
+  });
+}
+
+function renderTalks(req, res){
+  res.render('public/talks', {
+    title: 'Codemotion',
+    talks: _.values(talks.talks)
+  });
+}
+
 
 var showSponsor= function (req,res){
  res.render('public/sponsor', {

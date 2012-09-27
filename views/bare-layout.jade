@@ -9,6 +9,33 @@ html( lang="en")
         window.location.href=/(http(s?):\/\/[^\/]+).*/.exec(window.location.href)[1] + '/browser-not-supported.html'
   body
 
+    .toolbar
+      .container
+        .nav-header
+          a.roma-link(href="http://codemotion.it")
+            span.ui-helper-hidden-accessible Roma
+        .locales
+          a.locale(href="?language=es") ESPAÑOL
+          a.locale(href="?language=en") ENGLISH
+
+    div#branding
+      .container
+        .row
+          .span7
+            a.logo(href="/", itemprop="name")
+              span.ui-helper-hidden-accessible Codemotion
+          .span3
+            h2.where-title
+              span(itemprop="addressLocality") MADRID
+              span(itemprop="startDate", content="2013-03-2013T09:00")
+                span.red 09
+                span.white .03.2013
+            div(itemprop="address", itemscope="itemscope", itemtype="http://schema.org/PostalAddress")
+              p.retro(itemprop="name") Escuela Universitaria de Informática
+              p.retro Universidad Politécnica de Madrid
+              p.retro(itemprop="streetAddress") Carretera de Valencia km 7 (Campus Sur)
+
+     
     .navbar.navbar-inverse
       .navbar-inner
         .container 
@@ -40,27 +67,9 @@ html( lang="en")
                 a(href="/partners") #{lingua.menu.partners}
               li 
                 a(href="/follow-up") #{lingua.menu.followUp}
-    div#branding
-      .container
-        .row
-          div
-            h2.where-title
-              span(itemprop="addressLocality") MADRID
-              span(itemprop="startDate", content="2013-03-2013T09:00")
-                span.red 09
-                span.white .03.2013
-            div(itemprop="address", itemscope="itemscope", itemtype="http://schema.org/PostalAddress")
-              p.retro(itemprop="name") Escuela Universitaria de Informática
-              p.retro Universidad Politécnica de Madrid
-              p.retro(itemprop="streetAddress") Carretera de Valencia km 7 (Campus Sur)
+   
 
 
-
-    .toolbar
-      .container
-        .locales
-          a.locale(href="?language=es") ESPAÑOL
-          a.locale(href="?language=en") ENGLISH
 
     block main_content
 

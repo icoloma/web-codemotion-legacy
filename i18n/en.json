@@ -15,6 +15,7 @@
     "title": "Let's rock'n roll"
     ,"bodyheader": "<p>Codemotion es el evento que reunirá en España a técnicos, desarrolladores y estudiantes de todas las comunidades y lenguajes. Por primera vez se celebrará en España después de 5 años de éxito en Italia.<p>Codemotion es el evento que reunirá en España a técnicos, desarrolladores y estudiantes de todas las comunidades y lenguajes. Por primera vez se celebrará en España después de 5 años de éxito en Italia."
     ,"body": "<h3>Por y para comunidades de desarrollo</h3><p>Codemotion es un evento organizado por las comunidades, para las comunidades. Cada grupo es responsable de organizar su propio Call For Papers, y llegado el momento se confeccionará el calendario final con las charlas seleccionadas por cada comunidad.<h3>Somos muchos</h3><p>Y nos vemos poco. Este evento es una oportunidad única para mezclar en un mismo recinto comunidades como Java, Rails, JavaScript o Agile. Si estás esperando para conocer alguna tecnología que te saque de tu zona de confort, éste puede ser tu día y nosotros podemos ser tu excusa.<h3>Internacional</h3><p>No sólo en charlas, donde traeremos speakers internacionales, sino el propio evento que se ejecutará en paralelo con Codemotion Italia celebrado en Roma el mismo día."
+    ,"buyNow" : "Buy your ticket now !!!"
   }
 
   ,"info": {
@@ -264,7 +265,38 @@
     "blogs": "<h3>Blog posts from attendants</h3>How attendants lived the codemotion",
     "press": "<h3>Press</h3>How the media saw the codemotion",
     "photos": "<h3>Photos</h3>Whatch the photos"
-
   }
+
+  ,"schedule" : {
+    "title": "Agenda de charlas<small>Las charlas de Codemotion</small>",
+    "sponsors" : "Todo esto es gracias a nuestros patrocinadores",
+    "bodyheader" : "El espíritu del Codemotion no sólo será el Sábado 9. Durante la semana del 4 al 8 también la liamos parda. En la semana Waiting for Codemotion podrás ver los eventos locales organizados por las distintas comunidades.<p>Tenemos 7 tracks en paralelo de charlas... pero también hay un track para talleres. Aquí podrás consultar la distribución tanto de Charlas como de los Talleres",
+    "talks" : "Talks",
+    "workshops" : "Workshops",
+    "table" : {
+      "time" : "Time",
+      "track1" : "Track1",
+      "track2" : "Track2",
+      "track3" : "Track3",
+      "track4" : "Track4",
+      "track5" : "Track5",
+      "track6" : "Track6",
+      "track7" : "Track7",
+      "workshop": "Workshop",
+      "register": "Register",
+      "welcome": "Welcome",
+      "coffeBreak": "Coffe break",
+      "lunch" : "Lunch",
+      "closing" : "Closing"
+    }
+  }
+
+  ,"talks" :{
+    "title" : "Una descripción más detallada da las ponencias",
+    "bodyheader" : "Porque el título no lo es todo, te damos algo más de información sobre cada una de las charlas y los ponentes."
+  }
+
+
+
 }
   

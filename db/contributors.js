@@ -1,4 +1,7 @@
 
+/*
+  Colaboradores [ media partners y otros ]
+*/
 var contributorList = {
   
   media : [

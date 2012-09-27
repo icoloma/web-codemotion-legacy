@@ -12,7 +12,7 @@ mixin sponsorsBig(title, sponsors)
     each sponsor in sponsors
       .row
         .span3
-          a(href=sponsor.url, title= sponsor.name)
+          a(href=sponsor.url, title= sponsor.name, target="_blank")
             img(src="/img/partners/" + sponsor.img)
         .span5
           p !{ lingua.sponsors_descriptions[sponsor.short_desc]}

@@ -1,4 +1,7 @@
 
+/**
+  Lista de comunidades
+*/
 var communitiesList =  [
     { name: "Agile Spain",
       url: "http://www.agile-spain.com",

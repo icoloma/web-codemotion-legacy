@@ -1,4 +1,6 @@
-
+/*
+  Lista de sponsors [platinum, gold, silver]
+*/
 var sponsorList = {
   
   platinum : [
