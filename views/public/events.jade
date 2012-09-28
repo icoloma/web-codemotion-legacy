@@ -1,0 +1,29 @@
+extends ../layout
+
+append content
+
+  h1 !{lingua.events.title}
+
+  .body-header
+    !{lingua.events.bodyheader}
+
+  each eventsinDate in eventList
+    h3.eventDate !{eventsinDate.date}
+    each event in eventsinDate.events
+      .row
+        .span2
+          img(src='/img/communities/' + event.communityImg, title=event.community)
+        .span4
+          h4 !{event.title}
+          p !{event.venue}
+          p !{event.time}
+          p.city !{event.city}
+          p !{event.description}
+          a.btn.small( href=event.url, target='_blank') !{lingua.moreInfo}
+        .span2
+          img(src='/img/maps/' + event.city + '.jpg', title=event.city)
+
+
+        
+
+     

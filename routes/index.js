@@ -1,4 +1,5 @@
 var talks = require('../db/talks.js');
+var eventList = require('../db/events.js');
 
 module.exports = function (server) {
  server.get('/', renderPage('home'));
@@ -12,6 +13,7 @@ module.exports = function (server) {
  server.get('/partners',  renderPage('partners'));
  server.get('/follow-up',  renderPage('followUp'));
  server.get('/talks', renderTalks);
+ server.get('/events', renderEvents);
 }
 
 function renderPage(page) {
@@ -21,6 +23,13 @@ function renderPage(page) {
     });
   }
 };
+
+function renderEvents(req,res){
+res.render('public/events', {
+    title: 'Codemotion',
+    eventList: eventList
+  });
+}
 
 function renderSchedule(req, res){
   res.render('public/schedule', {

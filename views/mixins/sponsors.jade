@@ -18,3 +18,15 @@ mixin sponsorsBig(title, sponsors)
           p !{ lingua.sponsors_descriptions[sponsor.short_desc]}
           p 
             a(href="/sponsors/" + sponsor.id) Ver más
+
+
+mixin sponsorsInRow()
+
+  ul.rowsponsors
+    -for (var sponsorType in locals.sponsorList )
+      each sponsor in locals.sponsorList[sponsorType]
+        li.sponsor
+          a(href=sponsor.url, title= sponsor.name, target="_blank")
+            img(src="/img/partners/" + sponsor.img)
+            span.label !{sponsorType}
+      

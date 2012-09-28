@@ -277,7 +277,7 @@
   ,"schedule" : {
     "title": "Agenda de charlas<small>Las charlas de Codemotion</small>",
     "sponsors" : "Todo esto es gracias a nuestros patrocinadores",
-    "bodyheader" : "El espíritu del Codemotion no sólo será el Sábado 9. Durante la semana del 4 al 8 también la liamos parda. En la semana Waiting for Codemotion podrás ver los eventos locales organizados por las distintas comunidades.<p>Tenemos 7 tracks en paralelo de charlas... pero también hay un track para talleres. Aquí podrás consultar la distribución tanto de Charlas como de los Talleres",
+    "bodyheader" : "El espíritu del Codemotion no sólo será el Sábado 9. Durante la semana del 4 al 8 también la liamos parda. En la semana <a href='/events'>Waiting for Codemotion</a> podrás ver los eventos locales organizados por las distintas comunidades.<p>Tenemos 7 tracks en paralelo de charlas... pero también hay un track para talleres. Aquí podrás consultar la distribución tanto de <a href='#talks'>Charlas</a> como de los <a href='#workshops'>Talleres</a>",
     "talks" : "Charlas",
     "workshops" : "Talleres",
     "table" : {
@@ -302,5 +302,12 @@
     "title" : "Una descripción más detallada da las ponencias",
     "bodyheader" : "Porque el título no lo es todo, te damos algo más de información sobre cada una de las charlas y los ponentes."
   }
+
+  ,"events" :{
+    "title" : "Esperando al Codemotion",
+    "bodyheader" : "Eventos organizados por las Comunidades para ir calentando el Codemotion."
+  }
+
+  , "moreInfo" : "Ver más"
 
 }

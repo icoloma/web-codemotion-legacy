@@ -1,4 +1,5 @@
 extends ../bare-layout
+include ../mixins/sponsors
 
 append main_content
 
@@ -13,7 +14,9 @@ append main_content
     .body
       !{lingua.schedule.body}
 
-
+      mixin sponsorsInRow()
+     
+      a(name='talks')
       h2 !{lingua.schedule.talks} 
       table.schedule
         thead
@@ -40,6 +43,7 @@ append main_content
                 td.break(colspan=tracks) !{lingua.schedule.table[row.talks[0]]} 
 
 
+      a(name='workshops')
       h2 !{lingua.schedule.workshops} 
       table.schedule
         thead
