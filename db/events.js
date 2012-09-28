@@ -1,3 +1,6 @@
+/*
+  Eventos previos al CodeMotion
+*/
 var eventList = [
   
     { "date" : "17/03/2012",
