@@ -41,7 +41,7 @@
   }
 
   ,"contribute": {
-      "title" : "¡Échanos una mano!<small>Necesitamos colaboradores</small>",
+      "title" : "¡Échanos una mano!",
       "bodyheader" : "Necesitamos ayuda de gente como tú para hacer aún más grande el Codemotion. La cosas en las que puedes ayudar son muchas, tanto durante como antes del evento. Si quieres ayudarnos, escribe a <a href='mailto:'info@codemotion.es'>info@codemotion.es</a>",
       "volunteers" : "<h3>Voluntarios en el evento</h3><p>El día del Codemotion, el sabado 9 de marzo de 2013, necesitaremos gente para ayudarnos con el proceso de inscripción, la entrega de materiales a los asistentes, el control del tiempo y del inicio y final de las charlas... En función del número de voluntarios, trataremos de organizarnos para que también los voluntarios puedan seguir alguna de las charlas.<p>Si estás interesado en convertirte en un voluntario del evento, escríbenos a <a href='mailto:'info@codemotion.es'>info@codemotion.es</a> indicando tu disponibilidad y preferencias.",
       "volunteers2" : "<h3>Voluntario para los preparativos</h3><p>Antes de que el Codemotion abra sus puertas, tenemos un montón de trabajo que hacer: preparar las bolsas para entregar a los asistentes, preparar los stands de expositores, colocar los carteles y la señalización del recinto...<p>Si puedes ayudarnos en los días anteriores al 24 de Marzo, escríbenos a <a href='mailto:'info@codemotion.es'>info@codemotion.es</a> indicando tu disponibilidad y preferencias.",
@@ -51,7 +51,9 @@
       "student" : "<h3>Si eres estudiante o profesor...</h3><p>Para nosotros es muy interesante la participación de los estudiantes de todas las universidades en el Codemotion. Si eres estudiante o profesor, hazte eco del evento. Si quieres que te enviemos una imagen o una noticia que poder publicar o colgar en los tablones de tu universidad, ponte en contacto con nosotros a través de <a href='mailto:'info@codemotion.es'>info@codemotion.es</a> y te diremos cómo podemos ayudarte con el anuncio en tu centro.",
       "friends" : "<h3>Invita a tus amigos y colegas</h3><p>¿Hay un compañero o amigo que todavía no ha oido hablar del Codemotion? Cuentale la que estamos preparando y animale a que visite la web y se inscriba como asistente.",
       "twitter" : "<h3>Twitter supporter</h3><p>Si también tu eres un apasionado del canto de los pájaros azules, puedes ayudarnos a difundir acerca del codemotion utilizando los hashtags #codemotion #es. Puedes seguirnos también en nuestra cuenta <a href='http://twitter.com/codemotion_es'>@codemotion_es</a>",
-      "linkedin" : "<h3>Linkedin supporter</h3>Sigue la página de codemotion en <a href='http://www.linkedin.com/'>Linkedin</a>."
+      "linkedin" : "<h3>Linkedin supporter</h3>Sigue la página de codemotion en <a href='http://www.linkedin.com/'>Linkedin</a>.",
+      "moderator" : "<h3>Ayúdanos a mejorar las charlas</h3> A traves de Google moderator hemos creado una <a href='http://www.google.com/moderator/#16/e=202506' target='_blank'>encuesta</a> para conocer tus intereses, "
+
   }
 
   ,"sponsors": {
